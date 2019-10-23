@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>First Task App</title>
+    {{ style('taskapp/css/font-awesome.min.css') }}
+    {{ style('taskapp/css/bulma.min.css') }}
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-8 is-offset-2">
+                    @!section('content')
+                </div>
+            </div>
+        </div>
+  </section>
+</body>
